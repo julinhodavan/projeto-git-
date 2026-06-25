@@ -15,3 +15,7 @@ class Funcionario
         $this->salario = $salario;
     }
 }
+public function exibirDados()
+{
+    return $this->nome . " - " . $this->cargo;
+}
